@@ -20,17 +20,32 @@
     "elementos_2": {
         "aluma" : {
             "id" : 1,
-            "img_Url" : "/images/aluma.png",
+            "img_Url" : "/images/react.png",
             "title":"aluma"
         },
         "peri": {
             "id" : 2,
-            "img_Url":"/images/peri.png",
+            "img_Url":"/images/node-js.png",
             "title": "aluma"
         }, 
         "doka": {
             "id" : 3,
-            "img_Url":"/images/doka.png",
+            "img_Url":"/images/mongodb.png",
+            "title":"doka"
+        },
+        "aluma2" : {
+            "id" : 4,
+            "img_Url" : "/images/css.png",
+            "title":"aluma"
+        },
+        "peri2": {
+            "id" : 5,
+            "img_Url":"/images/socket.png",
+            "title": "aluma"
+        }, 
+        "doka2": {
+            "id" : 6,
+            "img_Url":"/images/html.png",
             "title":"doka"
         }
         

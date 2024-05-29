@@ -24,15 +24,15 @@
         
     },
     "elements_2": {
-        "holderTester" : {
+        "stayAway" : {
             "id" : 1,
-            "img_Url" : "/images/machine3.png",
-            "title":"Holder Verification Equipment",
-            "description" : "Holder Verification Equipment for Fakra Coaxial Connectors",
+            "img_Url" : "/images/home_photo.png",
+            "title":"StayAway",
+            "description" : " Secure Rental Platform",
             "leyend" : "bathurst",
             "holderTesterProcess" : {
                 "front" : {
-                    "title_1": "Holder Tester",
+                    "title_1": "StayAway",
                     "text": "Removing obsacles to make the Set Up faster and easily",
                     "img":"/images/machine3.png",
                     "context" : "Prior to implementing this verification equipment, the only way to check holders was on the production line, leading to downtime due to repairs of defective holders. With the new machine, maintenance teams can repair and verify holders before they reach production, reducing downtime and increasing production line efficiency.",

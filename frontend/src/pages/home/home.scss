@@ -53,9 +53,14 @@
     .imgContainer {
         width: 20%;
         img{
-            width: 100%;
-            height: 75px;
+            //width: 100%;
+            //height: 75px;
             //object-fit: cover;
+            transition: all 0.3s ease;
+        
+        }
+        img:hover {
+            scale: 1.1;
         }
 }    
 }
@@ -105,10 +110,13 @@
         img {
             width: 80%;
             border-radius: 10px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease;
 
         }
         img:hover {
             cursor: pointer;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
         }
         .workExamplesText {
             width: 80%;
