@@ -64,9 +64,9 @@
         },
         "demoPLC": {
             "id" : 2,
-            "img_Url":"/images/demoPLC_summary_3.png",
-            "title": "Universal PLC Skill Development Tool",
-            "description" : "Efficient training tool for mastering PLC skills across industries.",
+            "img_Url":"/images/budget_home_photo.png",
+            "title": "FlyScan",
+            "description" : "Effortlessly Find Your Flights",
             "leyend"  :"pickering",
             "demoPLC_Process" : {
                 "front" : {
@@ -103,9 +103,9 @@
         }, 
         "labview": {
             "id" : 3,
-            "img_Url":"/images/labview_summary_3.png",
-            "title":"Label Accuracy Enhancement Project",
-            "description" : "Improving label precision for streamlined operations.",
+            "img_Url":"/images/FlyScan_home_photo.png",
+            "title":"Budget Tracker",
+            "description" : "Visualize and Control Your Spending",
             "leyend"  : "etobicoke",
             "labviewTagProcess" : {
                 "front" : {
