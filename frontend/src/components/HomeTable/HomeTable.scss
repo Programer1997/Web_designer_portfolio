@@ -1,0 +1,25 @@
+.containerHomeTable {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    .whiteLine {
+        width: 80%;
+        height: 15px;
+        background-color:rgb(246,246,246);
+        border-radius: 10px;
+        margin-bottom: 2%;
+        
+
+    }
+    .greyLine { 
+        width: 80%;
+        height: 15px;
+        background-color:rgb(215,223,232);
+        border-radius: 10px;
+        margin-bottom: 2%;
+        
+    }
+}

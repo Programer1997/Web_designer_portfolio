@@ -1,0 +1,282 @@
+
+
+//Work One  - Desgin 
+.projectHomePage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    .projectPresentation{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h2 {
+            margin: 0;
+            margin-top: 3%;
+        }
+        
+        img{
+            width: 100%;
+            max-height: 70vh;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        
+    }
+.context{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    .text {
+        width: 60%;
+        
+        h3{
+           text-align: start; 
+        }
+        p{
+            text-align: justify;
+            
+        }
+        
+    }
+    .projectInfo {
+        width: 35%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .role {
+            width: 50%;
+            h3{
+                text-align: start;
+                
+            }
+            p{
+                text-align: start;
+                
+            }
+            
+        }
+        .team{
+            width: 50%;
+            h3{
+                text-align: start;
+                
+            }
+            p{
+                text-align: start;
+                
+            }
+            
+        }
+        .timeline {
+            width: 50%;
+            h3{
+                text-align: start; 
+            }
+            p{
+                text-align: start;
+            }
+
+        }
+
+    }
+
+}
+
+}
+.projectSummary {
+    background-color: rgb(246,246,246);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    //align-items: flex-start;
+    align-items: center;
+    
+    .summaryText {
+        width: 80%;
+        p{
+            text-align: start;
+        }
+        h3 {
+            text-align: start;
+            text-transform: capitalize;
+            font-size: 1.5em;
+        }
+        .summaryText-text{
+           margin-bottom: 3%; 
+        }
+
+    }
+    .summaryImages {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 450px;
+        //padding: 20px;
+        gap: 10px;
+        margin-bottom: 5%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            //puting a title 
+            border-radius: 20px;
+        }
+        
+        .summaryImageIndividual:nth-child(2){
+            grid-row-start: span 2;
+          }
+
+    }
+    
+}
+///////////////////////////////////
+.projectProblem { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .problemText{
+        width: 80%;
+        h3{
+            text-align: start;
+        }
+        p{
+            text-align: start;
+        }
+
+    }
+    .problemImages  {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 250px;
+        gap: 10px;
+        margin-bottom: 5%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+    }
+
+}
+/////////////////////////////
+.projectSolution { 
+    background-color: rgb(246,246,246);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .solutionText{
+        width: 80%;
+        h3{
+            text-align: start;
+            
+        }
+        p{
+            text-align: start;
+
+        }
+
+    }
+    .solutionImages  {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 350px;
+        gap: 10px;
+        margin-bottom: 2%;
+        img {
+            width: 100%;
+            border-radius: 20px;
+            object-fit: cover;
+            height: 100%;
+        }
+        .solutionImageIndividual:nth-child(2){
+            grid-row-start: span 2;
+        }
+        .solutionImageIndividual:nth-child(1){
+            grid-column-start: span 1;
+        }
+
+    }
+
+}
+
+@media screen and (max-width : 431px) {
+    .projectHomePage{
+        .projectPresentation{
+            p {
+                text-align: justify;
+                margin-top: 0;
+            }
+            h2{
+                text-align: start;
+            }
+        }
+        .context {
+            flex-direction: column;
+            .text {
+                width: 100%;
+            }
+            .projectInfo {
+                width: 100%;
+            }
+        }
+
+    }
+    .projectSummary {
+        .summaryText{
+            p{
+                text-align: justify;
+            }
+            h3{
+                text-align: start;
+            }
+            
+        }
+        .summaryImages{
+            grid-template-columns: repeat(1,1fr);
+            grid-auto-rows: 150px;
+            .summaryImageIndividual:nth-child(2){
+                grid-row-start: span 1;
+              }
+        }
+
+    }
+    .projectProblem{
+        .problemImages{
+            grid-template-columns: repeat(1,1fr);
+            grid-auto-rows: 150px;
+
+        }
+        .problemText{
+            p{
+                text-align: justify;
+            }
+        }
+
+    }
+    .projectSolution{
+        .solutionImages{
+            grid-template-columns: repeat(1,1fr);
+            grid-auto-rows: 150px;
+            .solutionImageIndividual:nth-child(2){
+                grid-row-start: span 1;
+            }
+        }
+        .solutionText{
+            p{
+                text-align: justify;
+            }
+        }
+
+    }
+
+}

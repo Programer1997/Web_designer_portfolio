@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.homePage  {
+    width: 100%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .animations { 
+        width: 100%;
+        position: relative;
+        margin-bottom: 3%;
+    
+    .animation  {
+        position: absolute;
+        top: 40%; /* Position the text vertically in the middle */
+        left: 16%; /* Position the text horizontally in the middle */
+        transform: translate(-50%, -50%); /* Center the text precisely */
+        //background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+        background-color: rgba(255, 255, 255);
+        padding: 20px; /* Add some padding around the text */
+        border-radius: 50%; /* Add border-radius for rounded corners */
+
+    }
+    .animationTwo  {
+        position: absolute;
+        top: 70%; /* Position the text vertically in the middle */
+        left: 70%; /* Position the text horizontally in the middle */
+        transform: translate(-50%, -50%); /* Center the text precisely */
+        //background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+        background-color: rgba(255, 255, 255);
+        padding: 20px; /* Add some padding around the text */
+        border-radius: 50%; /* Add border-radius for rounded corners */
+
+    }
+}
+.briefDescription { 
+    width: 80%;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 2.5em;
+}
+.companiesExperiencie{
+    width: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4%;
+    .imgContainer {
+        width: 20%;
+        img{
+            width: 100%;
+            height: 75px;
+            //object-fit: cover;
+        }
+}    
+}
+.companiesExperiencie-mobile{
+    display: none;
+}
+.workExperience {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-around;
+    margin-top: 5%;
+    .workText {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        //code to keep fixed the position of title "work " while i scrolling down under need
+        position: sticky;
+        top: 60px;
+        max-height: 30vh;
+        overflow-y: auto;
+        /////////////////////////////////////////////
+        h2 {
+            width: 80%;
+            margin: 0;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+
+        }
+        p{
+            margin: 0;
+            width: 80%;
+            font-family: "Source Code Pro", monospace;
+        }
+
+    }
+    .workExamples {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        img {
+            width: 80%;
+            border-radius: 10px;
+
+        }
+        img:hover {
+            cursor: pointer;
+        }
+        .workExamplesText {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2%;
+            margin-bottom: 3%;
+            .workExamplesTextDiv{
+                width: 100%;
+                text-align: start;
+                h1 {
+                    margin: 0;
+                }
+                p{
+                    margin: 0;
+                }
+
+            }
+            button {
+                padding: 1.5%;
+                width: 15%;
+                border-radius: 10px;
+                border: none;
+                cursor: pointer;
+                
+            }
+
+        }
+    }
+}
+
+}
+
+@media screen and (max-width: 431px) {
+    .homePage{
+        .animations { 
+            .animation { 
+                display: none;  
+            }
+            .animationTwo  {
+                //position: absolute;
+                top: 45% !important;
+                left: 50% !important;
+                transform: translate(-50%, -50%) !important;
+                img {
+                    height: 20vmin;
+                }
+            }
+        }
+        .briefDescription{
+            font-size:0.9em ;
+            text-align: justify;
+            font-style: normal;
+            font-weight: normal;
+        }
+        .companiesExperiencie{
+            display: none;
+        }
+        .companiesExperiencie-mobile {
+            width: 80%;
+            display: grid;
+            //gap: 3%;
+            margin-top: 3%;
+            //margin-bottom: 3%;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2, auto);
+
+            .imgContainer{
+                max-width: 100%;
+                //display: flex;
+                img{
+                    //object-fit: cover;
+                    width: 30%;
+                    margin-bottom: 4%;
+                    border-radius: 15px;
+                }
+            }
+
+        }
+        .workExperience{
+            flex-direction: column;
+            align-items: center;
+            
+            .workText{
+                width: 100%;
+                margin-bottom: 3%;
+                position: static;
+                //text-align: center;
+                align-items: center;
+                h2 {
+
+                }
+                p { 
+
+                }
+
+            }
+            .workExamples{
+                width: 100%;
+                img {
+
+                }
+                
+                .workExamplesText{
+                    flex-direction: column;
+                    width: 80%;
+                    align-items: center;
+                    .workExamplesTextDiv{
+                        width: 100%;
+                        h1 { 
+                            font-size: 1.3em;
+                            text-align: start;
+                        }
+                        p {
+                            font-size: 0.9em;
+                            margin-bottom: 2%;
+                            text-align: start;
+                        }
+                        
+                    }
+                    button{
+                        width: 100%;
+                        background-color: rgb(25,135,84);
+                        color: #F6F6F6;
+                    }
+                   
+                }
+
+            }
+
+        }
+}
+
+}
+@media screen and (min-width: 432px) and (max-width :1025px) {
+    .homePage{
+        .animations { 
+            .animation { 
+                display: none;  
+            }
+            .animationTwo  {
+                //position: absolute;
+                top: 45% !important;
+                left: 50% !important;
+                transform: translate(-50%, -50%) !important;
+                img {
+                    height: 20vmin;
+                }
+            }
+        }
+        .briefDescription{
+            font-size:1.5em ;
+            text-align: justify;
+            font-style: normal;
+            font-weight: normal;
+        }
+        .companiesExperiencie{
+            display: none;
+        }
+        .companiesExperiencie-mobile {
+            width: 80%;
+            display: grid;
+            //gap: 3%;
+            margin-top: 3%;
+            //margin-bottom: 3%;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2, auto);
+
+            .imgContainer{
+                max-width: 100%;
+                //display: flex;
+                img{
+                    //object-fit: cover;
+                    width: 30%;
+                    margin-bottom: 4%;
+                    border-radius: 15px;
+                }
+            }
+
+        }
+        .workExperience{
+            flex-direction: column;
+            align-items: center;
+            
+            .workText{
+                width: 100%;
+                margin-bottom: 3%;
+                position: static;
+                //text-align: center;
+                align-items: center;
+                h2 {
+                    font-size: 2em;
+                }
+                p { 
+                    font-size: 1.5em;
+                }
+
+            }
+            .workExamples{
+                width: 100%;
+                img {
+
+                }
+                
+                .workExamplesText{
+                    flex-direction: column;
+                    width: 80%;
+                    align-items: center;
+                    .workExamplesTextDiv{
+                        width: 100%;
+                        h1 { 
+                            font-size: 1.8em;
+                            text-align: start;
+                        }
+                        p {
+                            font-size: 1.3em;
+                            margin-bottom: 2%;
+                            text-align: start;
+                        }
+                        
+                    }
+                    button{
+                        width: 100%;
+                        background-color: rgb(25,135,84);
+                        color: #F6F6F6;
+                    }
+                   
+                }
+
+            }
+
+        }
+}
+
+}

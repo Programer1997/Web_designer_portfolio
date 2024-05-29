@@ -1,0 +1,122 @@
+header { 
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246,246,246);
+    .headerContainer { 
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        align-items: center;
+        h2 { 
+            width: 10%;
+            padding: 5px;
+            margin: 0;
+
+        }
+        h2:hover { 
+            background-color: #fcfcfc;
+            border-radius: 10px;
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        nav{
+            width: 40%; 
+            
+            ul {
+                margin:3%;
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                a {
+                    text-decoration: none;
+                }
+                li {
+                    width: 20%;
+                    margin-right: 20px;
+                    padding: 5px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    //list-style-type: none;
+                    color: black;
+                }
+                li:hover { 
+                    background-color: #fcfcfc;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+                .resume { 
+                    width: 100%;
+                    border: 1px solid black;
+                    border-radius: 30px;
+                }
+                
+                .resume:hover {
+                    border-radius: 30px;
+                }
+            }
+        }
+        
+        .toggleMenu{
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+    header {
+        .headerContainer {
+           
+            nav{
+                display: none;
+            }
+           
+            .toggleMenu{
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                padding: 2%;
+                justify-content: center;
+                align-items: center;
+                .line{
+                    background-color: black;
+                    width: 35px;
+                    height: 8px;
+                    border-radius: 5px;
+                    margin-bottom: 3px;
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (min-width: 451px) and (max-width :1025px) {
+    header {
+        width: 100%;
+        .headerContainer {
+           
+            nav{
+                display: none;
+            }
+           
+            .toggleMenu{
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                padding: 2%;
+                justify-content: center;
+                align-items: center;
+                .line{
+                    background-color: black;
+                    width: 35px;
+                    height: 8px;
+                    border-radius: 5px;
+                    margin-bottom: 3px;
+                }
+            }
+
+        }
+    }
+        
+}

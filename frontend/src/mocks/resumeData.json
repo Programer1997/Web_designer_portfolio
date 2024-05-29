@@ -1,0 +1,106 @@
+{
+    "elements": {
+        "experience" : {
+            "experienceOne" : {
+                "id" : 1,
+                "title":"experience",
+                "titleTwo" : "Applications Engineer | G3 Ingenieria",
+                "date": "May 2021 - Jan 2022",
+                "activityOne" :"Planned and completed group projects, working smoothly with others.",
+                "activityTwo" :"Worked with cross-functional teams to achieve goals."
+
+            },    
+            "experienceTwo" : {
+                "id" : 2,
+                "title":"experience",
+                "titleTwo" : "Electronics Technician | TE Connectivity Automotive",
+                "date": "Jan 2021- May 2021",
+                "activityOne" :"Support to production lines and integration of new improvements to increase the productivity ofproduction lines, provide new designs, Automation, etc.",
+                "activityTwo" :"(PLC, Mechanical Drawing, Sensors, vision camera, Laser marking machines, Welders, Presses,Electrical Tests, Leak Tests, etc.), Modification and development of programs in LabVIEW tooptimize, improve and prioritize the safety of our clients' products ."
+
+            },
+            "experienceThree" : {
+                "id" : 3,
+                "title":"experience",
+                "titleTwo" : "Manufacturing Technician | TE Connectivity Automotive ",
+                "date": "Oct 2019- Jan 2021",
+                "activityOne" :"Analyze, propose and develop engineering works (Design of new improvement prototypes, KAIZEN,Time Reduction, Continuous Improvement) and in the area of mechanical design (Aluminum parts,stainless steel, fixtures, guards, supports, etc.) to optimize and improve processes in themanufacturing industry",
+                "activityTwo" :"Preventive and corrective maintenance of critical equipment, as well as integration andimplementation of improvements in them (PLC, Vision System, Enabling of new Sensors, Innovation,etc.)."
+            },    
+            "experienceFour" : {
+                "id" : 4,
+                "title":"experience",
+                "titleTwo" : "Manufacturing Engineering Intern | TE Connectivity",
+                "date": "Sep 2019- Oct 2019",
+                "activityOne" :"Application of improvement techniques on critical equipment (Run and rate, etc.)",
+                "activityTwo" :"Documentation of new projects and equipment, support for lines in launch"
+            }    
+        },
+        
+        "skills": {
+            "id" : 2,
+            "title": "skills",
+            "habilityOne" : {
+                "PLC programming": "Allen Bradley, Siemens, Omron, Delta. Knowledge of CCW, Tia Portal, ISPsoft, DopSoft, etc. programming software",
+                "Knowledge of communication protocols": "Ethernet/IP, rs232, profinet, rs 485 and modbus",
+                "HMI Programming": "Allen Bradley, Siemens, Delta (intermediate level)",
+                "Knowledge of security systems": "Security system, security interlocks, etc.",
+                "Vision systems": "COGNEX and KEYENCE vision systems",
+                "LabVIEW Programming": "Programming in LabVIEW",
+                "Java NetBeans Programming": "Java, HTML, JS, React, Node",
+                "Interpretation of electrical control diagrams": "Interpretation of electrical control diagrams",
+                "Knowledge about manufacturing processes": "Knowledge about manufacturing processes"
+            
+            },
+            "habilityTwo" : {
+                "Advanced Mechanical Design": "Advanced Mechanical Design in SolidWorks (Finite Element Method, Design of Fixtures, Assemblies, Structures, Sheet Metal, etc.)",
+                "Design": "Design AutoCAD & SpaceClaim",
+                "Knowledge of pneumatic systems": "Knowledge of pneumatic valves, actuators, etc.",
+                "Experience in assembling control cabinets": "Experience in assembling control cabinets, assemblies",
+                "Knowledge of geometric tolerances": "Knowledge of geometric tolerances",
+                "Handling of tools": "Handling tools, wrenches, screwdrivers, drills, grinders, etc.",
+                "Management of conventional and CNC milling machines": "Management of Conventional and CNC Milling Machine",
+                "Management of Microsoft Office Package": "Management of computer software Microsoft Office Package, (Microsoft Word, Excel, etc.)",
+                "KAISEN": "KAISEN"
+            }
+
+        }, 
+        "certifications": {
+            "id" : 3,
+            "title":"Additional Training Certifications",
+            "trainings" : {
+                "Festo automation equipment training course": "Festo automation equipment training course, 07-Sep-2017 Universidad De Sonora",
+                "SolidWorks Design Course": "SolidWorks Design Course June to July 2019",
+                "CNC Course": "CNC Course January to February 2019",
+                "In-Sight EasyBuilder and Spreadsheet Standard Course": "In-Sight EasyBuilder and Spreadsheet Standard Course November 2020, Cognex",
+                "LabVIEW Associate Developer (Certified)": "LabVIEW Associate Developer (Certified)",
+                "Lean Manufacturing": "Lean Manufacturing January to February 2021 (Certified)",
+                "Lean Six Sigma White Belt": "Lean Six Sigma White Belt",
+                "Lean Six Sigma Green Belt": "Lean Six Sigma Green Belt",
+                "Machine learning and industry 4.0": "Machine learning and industry 4.0. May 14, 2021 (certified)"
+              }
+              
+        },
+        "education" :{
+            "id":4,
+            "title" : "Education ",
+            "education"  : { 
+                "educationOne":{
+                    "id" : 1,
+                    "title":"University of Sonora,MX - Hermosillo, Mexico | Bachelor of Science",
+                    "titleTwo" : "Mechatronic Systems Engineering",
+                    "date" : "08/2015 - 12/2019"
+                },
+                "educationTwo":{
+                    "id" : 2,
+                    "title":"Cornerstone Community College - Vancouver, BC | Associate of Science",
+                    "titleTwo" : "Web And Mobile App Design And Development, 01/2024",
+                    "date" : "01/2023 - 01/2024"
+                }
+            }
+            
+        }
+        
+    }
+   
+}

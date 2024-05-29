@@ -1,0 +1,62 @@
+{
+    "elementos_1": {
+        "aluma" : {
+            "id" : 1,
+            "img_Url" : "/images/aluma.jpg",
+            "title":"aluma"
+        },
+        "peri": {
+            "id" : 2,
+            "img_Url":"/images/peri.jpg",
+            "title": "aluma"
+        }, 
+        "doka": {
+            "id" : 3,
+            "img_Url":"/images/doka.png",
+            "title":"doka"
+        }
+        
+    },
+    "elementos_2": {
+        "aluma" : {
+            "id" : 1,
+            "img_Url" : "/images/aluma.png",
+            "title":"aluma"
+        },
+        "peri": {
+            "id" : 2,
+            "img_Url":"/images/peri.png",
+            "title": "aluma"
+        }, 
+        "doka": {
+            "id" : 3,
+            "img_Url":"/images/doka.png",
+            "title":"doka"
+        }
+        
+    },
+    "elementos_3": {
+        "aluma" : {
+            "id" : 1,
+            "img_Url" : "/images/autocad_logo.png",
+            "title":"aluma"
+        },
+        "peri": {
+            "id" : 2,
+            "img_Url":"/images/AllenBradley_logo.png",
+            "title": "aluma"
+        }, 
+        "doka": {
+            "id" : 3,
+            "img_Url":"/images/solidworks_logo.png",
+            "title":"doka"
+        },
+        "cognex": {
+            "id" : 4,
+            "img_Url":"/images/cognex_logo.jpg",
+            "title":"cognex"
+        }
+        
+    }
+   
+}

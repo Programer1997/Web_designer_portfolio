@@ -1,0 +1,143 @@
+{
+    "elements": {
+        "bathurst" : {
+            "id" : 1,
+            "img_Url" : "/images/bathurst.png",
+            "title":"Bathurst Project",
+            "description" : "Residential Aparments in GTA",
+            "leyend" : "bathurst"
+        },
+        "pickering": {
+            "id" : 2,
+            "img_Url":"/images/pickering.png",
+            "title": "Pickering Houses Basement",
+            "description" : "Residential Aparments in GTA",
+            "leyend"  :"pickering"
+        }, 
+        "etobicoke": {
+            "id" : 3,
+            "img_Url":"/images/etobicoke.png",
+            "title":"Etobicoke Apartments",
+            "description" : "Residential Aparments in GTA",
+            "leyend"  : "etobicoke"
+        }
+        
+    },
+    "elements_2": {
+        "holderTester" : {
+            "id" : 1,
+            "img_Url" : "/images/machine3.png",
+            "title":"Holder Verification Equipment",
+            "description" : "Holder Verification Equipment for Fakra Coaxial Connectors",
+            "leyend" : "bathurst",
+            "holderTesterProcess" : {
+                "front" : {
+                    "title_1": "Holder Tester",
+                    "text": "Removing obsacles to make the Set Up faster and easily",
+                    "img":"/images/machine3.png",
+                    "context" : "Prior to implementing this verification equipment, the only way to check holders was on the production line, leading to downtime due to repairs of defective holders. With the new machine, maintenance teams can repair and verify holders before they reach production, reducing downtime and increasing production line efficiency.",
+                    "role": "Design Lead",
+                    "team_1" : "2 Designers",
+                    "team_2" : "1 Engineer",
+                    "timeLine"  :"Apr/15 - May/01 2021"
+
+                },
+                "summary" :{
+                    "title_summary" : "Quickly and reliably find solutions to repair your equipment.",
+                    "text_summary"  :"The project involved the development of a holder verification equipment for Fakra coaxial connectors. A Siemens S7-1200 PLC and a Siemens HMI, both communicated over Ethernet (Profinet), were used to verify the condition of the holders. Electrical signals from holder sensors such as color, presence, and piece insertion were evaluated, along with manual verification of holder locks using pneumatic actuators.",
+                    "img_1_summary" :"/images/machine1.jpg",
+                    "img_2_summary" :"/images/summary_1.png",
+                    "img_3_summary" :"/images/solution1.jpg"
+
+                },
+                "issue"  :{
+                    "text_issue"  : "The main issue was the lack of an efficient system to verify holder condition before they reached the production line, resulting in downtime and costly repairs during production.",
+                    "img_1_issue" : "/images/problem1.jpg",
+                    "img_2_issue" : "/images/problem2.jpg"
+                },
+                "solution":{
+                    "text_solution" : "The solution was the design and construction of an automated verification equipment using a Siemens PLC and HMI, which allowed for evaluation of electrical signals from holder sensors and manual verification of pneumatic locks, ensuring holders were in good condition before production started.",
+                    "img_1_solution"  : "/images/solution1.jpg",
+                    "img_2_solution"  : "/images/solution2.png" 
+                 }
+            }
+        },
+        "demoPLC": {
+            "id" : 2,
+            "img_Url":"/images/demoPLC_summary_3.png",
+            "title": "Universal PLC Skill Development Tool",
+            "description" : "Efficient training tool for mastering PLC skills across industries.",
+            "leyend"  :"pickering",
+            "demoPLC_Process" : {
+                "front" : {
+                    "title_1": "Advanced PLC Skill Development",
+                    "text": "Efficient PLC Training for All Industries",
+                    "img":"/images/demoPLC_summary_3.png",
+                    "context" : "The project was initiated by a mining company to train technicians on new PLC technologies. The primary challenge was technicians' lack of knowledge in PLC systems, hindering their ability to perform technical tasks effectively. The client requested a demo PLC equipment for hands-on training to cover signal handling, lighting control, PLC programming using CCW software, digital/analog signal usage, and structured cabling.",
+                    "role": "Design Lead",
+                    "team_1" : "1 Designers",
+                    "team_2" : "2 Engineer",
+                    "timeLine"  :"May/15 - August/01 2021"
+
+                },
+                "summary" :{
+                    "title_summary" : "Transforming Technical Expertise: Advanced PLC Training for Mining Professionals",
+                    "text_summary"  :"The project aimed to train technicians in a mining company on PLC and Micro 800 PLC systems. The main challenge was technicians' lack of PLC knowledge, leading to operational inefficiencies. A demo PLC equipment was developed for hands-on training, covering signal handling, lighting control, PLC programming using CCW software, digital/analog signal usage, counters, timers, and structured cabling. This training initiative equipped technicians with essential skills for efficient machinery operation.",
+                    "img_1_summary" :"/images/demoPLC_summary_1.png",
+                    "img_2_summary" :"/images/demoPLC_summary_2.png",
+                    "img_3_summary" :"/images/demoPLC_summary_3.png"
+
+                },
+                "issue"  :{
+                    "text_issue"  : "The main issue was workers' inadequate knowledge to execute technical duties efficiently, leading to operational challenges and potential errors. The training program needed to bridge this knowledge gap by providing comprehensive hands-on experience with PLC systems, programming, and structured cabling.",
+                    "img_1_issue" : "/images/demoPLC_issue_1.png",
+                    "img_2_issue" : "/images/demoPLC_issue_2.png"
+                },
+                "solution":{
+                    "text_solution" : "To meet the challenge, a demo PLC equipment was developed for practical training. It included components like a potentiometer, buttons, lights, and displays for hands-on practice. Training sessions focused on signal handling, digital/analog signal usage, counters, timers, and structured cabling. The use of CCW software facilitated PLC programming exercises, enabling technicians to gain essential skills for effective machinery operation.",
+                    "img_1_solution"  : "/images/demoPLC_solution_2.png",
+                    "img_2_solution"  : "/images/demoPLC_solution_1.png", 
+                    "img_3_solution"  : "/images/demoPLC_summary_3.png" 
+                 }
+            }
+        }, 
+        "labview": {
+            "id" : 3,
+            "img_Url":"/images/labview_summary_3.png",
+            "title":"Label Accuracy Enhancement Project",
+            "description" : "Improving label precision for streamlined operations.",
+            "leyend"  : "etobicoke",
+            "labviewTagProcess" : {
+                "front" : {
+                    "title_1": "Label Accuracy Enhancement Project",
+                    "text": "Label Information Correction in Testing Electrical Machine for Production Optimization",
+                    "img":"/images/labview_summary_3.png",
+                    "context" : "The project aimed to enhance label accuracy in a testing electrical machine used by TE Connectivity's production department. Despite passing tests, certain part numbers were printing incorrect label information. The maintenance department identified and rectified the code error, ensuring accurate labels post-setup for new part numbers.",
+                    "role": "Design Lead",
+                    "team_1" : "1 Designers",
+                    "team_2" : "1 Engineer",
+                    "timeLine"  :"Feb/01 - Apr/01 2021"
+                },
+                "summary" :{
+                    "title_summary" : "Improving Label Information Precision for Enhanced Production Efficiency",
+                    "text_summary"  :"The project involved improving the label information accuracy for specific part numbers in a testing electrical machine used by the production department at TE Connectivity. The machine conducts various electrical and color tests, and upon successful testing, provides a green signal and a label with customer information and part numbers. However, there were issues with incorrect label information for certain part numbers, prompting the need for corrective action.",
+                    "img_1_summary" :"/images/labview_summary_1.png",
+                    "img_2_summary" :"/images/labview_summary_2.png",
+                    "img_3_summary" :"/images/labview_summary_3.png"
+
+                },
+                "issue"  :{
+                    "text_issue"  : "The problem identified was the incorrect label information printed for specific part numbers despite passing the tests. This led to confusion and potential errors in product labeling, impacting customer information accuracy.",
+                    "img_1_issue" : "/images/labview_issue_1.png",
+                    "img_2_issue" : "/images/labview_issue_2.png"
+                },
+                "solution":{
+                    "text_solution" : "As part of the maintenance department, the error in the machine's code causing incorrect label information was identified. A new code was developed with modifications to ensure the correct information was printed on the labels once the setup for new part numbers was completed. This solution aimed to improve label accuracy and reduce errors in customer information.",
+                    "img_1_solution"  : "/images/labview_solution_1.png",
+                    "img_2_solution"  : "/images/labview_solution_2.png" 
+                 }
+            }
+        }
+        
+    }
+}
