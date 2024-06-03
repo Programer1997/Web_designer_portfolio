@@ -21,7 +21,7 @@ export default function Work(props) {
         return (
           <WorkOne
             experienceProcessObject={
-              workExperienceImages.elements_2.holderTester.holderTesterProcess
+              workExperienceImages.elements_2.stayAway.holderTesterProcess
             }
           />
         );
@@ -29,7 +29,7 @@ export default function Work(props) {
         return (
           <WorkOne
             experienceProcessObject={
-              workExperienceImages.elements_2.demoPLC.demoPLC_Process
+              workExperienceImages.elements_2.flyScan.demoPLC_Process
             }
           />
         );
@@ -37,7 +37,7 @@ export default function Work(props) {
         return (
           <WorkOne
             experienceProcessObject={
-              workExperienceImages.elements_2.labview.labviewTagProcess
+              workExperienceImages.elements_2.budgetTracker.labviewTagProcess
             }
           />
         );

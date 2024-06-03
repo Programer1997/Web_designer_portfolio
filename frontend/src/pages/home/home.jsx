@@ -11,7 +11,7 @@ const HomePage = (props) => {
   //console.log(Object.values(CompaniesInfo.elementos_1));
   //console.log(CompaniesInfo.elementos_1);
   //console.log(CompaniesInfo.elementos_2);
-  //console.log(WorkExperienceInfo);
+  console.log(WorkExperienceInfo);
   const { setSelectedElement } = props;
 
   return (

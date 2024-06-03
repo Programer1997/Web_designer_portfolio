@@ -33,51 +33,50 @@
             "holderTesterProcess" : {
                 "front" : {
                     "title_1": "StayAway",
-                    "text": "Removing obsacles to make the Set Up faster and easily",
-                    "img":"/images/machine3.png",
-                    "context" : "Prior to implementing this verification equipment, the only way to check holders was on the production line, leading to downtime due to repairs of defective holders. With the new machine, maintenance teams can repair and verify holders before they reach production, reducing downtime and increasing production line efficiency.",
+                    "text": "Redefining Safe and Convenient Short-term Rentals",
+                    "img":"/images/home_photo.png",
+                    "context" : "StayAway addresses the challenge of finding safe and reliable short-term rentals in popular destinations. Inspired by Airbnb, it provides a sustainable, user-friendly platform with advanced admin features for seamless property and booking management.",
                     "role": "Design Lead",
                     "team_1" : "2 Designers",
                     "team_2" : "1 Engineer",
-                    "timeLine"  :"Apr/15 - May/01 2021"
+                    "timeLine"  :"Nov/25 - Dec/18 2023"
 
                 },
                 "summary" :{
-                    "title_summary" : "Quickly and reliably find solutions to repair your equipment.",
-                    "text_summary"  :"The project involved the development of a holder verification equipment for Fakra coaxial connectors. A Siemens S7-1200 PLC and a Siemens HMI, both communicated over Ethernet (Profinet), were used to verify the condition of the holders. Electrical signals from holder sensors such as color, presence, and piece insertion were evaluated, along with manual verification of holder locks using pneumatic actuators.",
-                    "img_1_summary" :"/images/machine1.jpg",
-                    "img_2_summary" :"/images/summary_1.png",
-                    "img_3_summary" :"/images/solution1.jpg"
+                    "title_summary" : "Quickly and reliably find solutions to your travels.",
+                    "text_summary"  :"StayAway is a short-term rental platform designed for secure and convenient accommodation searches. Featuring an admin panel for property management, it ensures efficient and safe user experiences for both renters and hosts.",
+                    "img_1_summary" :"/images/admin_photo.png",
+                    "img_2_summary" :"/images/booking_photo.png",
+                    "img_3_summary" :"/images/register_photo.png"
 
                 },
                 "issue"  :{
-                    "text_issue"  : "The main issue was the lack of an efficient system to verify holder condition before they reached the production line, resulting in downtime and costly repairs during production.",
-                    "img_1_issue" : "/images/problem1.jpg",
-                    "img_2_issue" : "/images/problem2.jpg"
+                    "text_issue"  : "Current rental platforms struggle with transaction security, property authenticity, and user-friendly interfaces. Property managers also lack effective tools for smooth operations.",
+                    "img_1_issue" : "/images/host_photo.png",
+                    "img_2_issue" : "/images/customers_panel_photo.png"
                 },
                 "solution":{
-                    "text_solution" : "The solution was the design and construction of an automated verification equipment using a Siemens PLC and HMI, which allowed for evaluation of electrical signals from holder sensors and manual verification of pneumatic locks, ensuring holders were in good condition before production started.",
-                    "img_1_solution"  : "/images/solution1.jpg",
-                    "img_2_solution"  : "/images/solution2.png" 
+                    "text_solution" : "Stay resolves these issues by offering,Users can safely find and book properties with detailed filters,Exclusive tools for administrators to manage listings, bookings, and user interactions,Enhances user experience with straightforward navigation and quick operations.",
+                    "img_1_solution"  : "/images/reserve_01_photo.png",
+                    "img_2_solution"  : "/images/review_photo.png" 
                  }
             }
         },
-        "demoPLC": {
+        "flyScan": {
             "id" : 2,
-            "img_Url":"/images/budget_home_photo.png",
+            "img_Url":"/images/FlyScan_home_photo.png",
             "title": "FlyScan",
             "description" : "Effortlessly Find Your Flights",
             "leyend"  :"pickering",
             "demoPLC_Process" : {
                 "front" : {
-                    "title_1": "Advanced PLC Skill Development",
-                    "text": "Efficient PLC Training for All Industries",
+                    "title_1": "FlyScan",
+                    "text": "FlyScan: Simplified Flight Search",
                     "img":"/images/demoPLC_summary_3.png",
-                    "context" : "The project was initiated by a mining company to train technicians on new PLC technologies. The primary challenge was technicians' lack of knowledge in PLC systems, hindering their ability to perform technical tasks effectively. The client requested a demo PLC equipment for hands-on training to cover signal handling, lighting control, PLC programming using CCW software, digital/analog signal usage, and structured cabling.",
+                    "context" : "FlyScan addresses the need for a straightforward and efficient flight search tool, enabling users to find and book flights with ease.",
                     "role": "Design Lead",
-                    "team_1" : "1 Designers",
-                    "team_2" : "2 Engineer",
-                    "timeLine"  :"May/15 - August/01 2021"
+                    "team_1" : "1 Designer",
+                    "timeLine"  :"May/15 - May/23 2023"
 
                 },
                 "summary" :{
@@ -101,9 +100,9 @@
                  }
             }
         }, 
-        "labview": {
+        "budgetTracker": {
             "id" : 3,
-            "img_Url":"/images/FlyScan_home_photo.png",
+            "img_Url":"/images/budget_home_photo.png",
             "title":"Budget Tracker",
             "description" : "Visualize and Control Your Spending",
             "leyend"  : "etobicoke",
