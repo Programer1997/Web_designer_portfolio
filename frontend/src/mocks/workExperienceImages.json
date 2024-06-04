@@ -30,7 +30,7 @@
             "title":"StayAway",
             "description" : " Secure Rental Platform",
             "leyend" : "bathurst",
-            "holderTesterProcess" : {
+            "stayAway_Process" : {
                 "front" : {
                     "title_1": "StayAway",
                     "text": "Redefining Safe and Convenient Short-term Rentals",
@@ -45,9 +45,9 @@
                 "summary" :{
                     "title_summary" : "Quickly and reliably find solutions to your travels.",
                     "text_summary"  :"StayAway is a short-term rental platform designed for secure and convenient accommodation searches. Featuring an admin panel for property management, it ensures efficient and safe user experiences for both renters and hosts.",
-                    "img_1_summary" :"/images/admin_photo.png",
-                    "img_2_summary" :"/images/booking_photo.png",
-                    "img_3_summary" :"/images/register_photo.png"
+                    "img_1_summary" :"/images/booking_photo.png",
+                    "img_2_summary" :"/images/register_photo.png",
+                    "img_3_summary" :"/images/admin_photo.png"
 
                 },
                 "issue"  :{
@@ -62,41 +62,41 @@
                  }
             }
         },
-        "flyScan": {
+        "happyDental": {
             "id" : 2,
-            "img_Url":"/images/FlyScan_home_photo.png",
+            "img_Url":"/images/detal_home_photo.png",
             "title": "FlyScan",
             "description" : "Effortlessly Find Your Flights",
             "leyend"  :"pickering",
-            "demoPLC_Process" : {
+            "happyDental_Process" : {
                 "front" : {
                     "title_1": "FlyScan",
-                    "text": "FlyScan: Simplified Flight Search",
-                    "img":"/images/demoPLC_summary_3.png",
+                    "text": "Simplified Flight Search",
+                    "img":"/images/detal_home_photo.png",
                     "context" : "FlyScan addresses the need for a straightforward and efficient flight search tool, enabling users to find and book flights with ease.",
                     "role": "Design Lead",
                     "team_1" : "1 Designer",
-                    "timeLine"  :"May/15 - May/23 2023"
+                    "timeLine"  :"Jun/20 - Jun/27 2023"
 
                 },
                 "summary" :{
-                    "title_summary" : "Transforming Technical Expertise: Advanced PLC Training for Mining Professionals",
-                    "text_summary"  :"The project aimed to train technicians in a mining company on PLC and Micro 800 PLC systems. The main challenge was technicians' lack of PLC knowledge, leading to operational inefficiencies. A demo PLC equipment was developed for hands-on training, covering signal handling, lighting control, PLC programming using CCW software, digital/analog signal usage, counters, timers, and structured cabling. This training initiative equipped technicians with essential skills for efficient machinery operation.",
-                    "img_1_summary" :"/images/demoPLC_summary_1.png",
-                    "img_2_summary" :"/images/demoPLC_summary_2.png",
-                    "img_3_summary" :"/images/demoPLC_summary_3.png"
+                    "title_summary" : "Effortlessly Find and Book Your Flights",
+                    "text_summary"  :"FlyScan is a user-friendly platform that allows users to search for flights based on their desired criteria, such as date, price, and destination. By leveraging an external API, FlyScan provides a comprehensive list of available flights, making it easy for users to find the best options.",
+                    "img_1_summary" :"/images/detal_appointment_list_photo.png",
+                    "img_2_summary" :"/images/detal_customers_list_photo.png",
+                    "img_3_summary" :"/images/detal_home_photo_02.png"
 
                 },
                 "issue"  :{
-                    "text_issue"  : "The main issue was workers' inadequate knowledge to execute technical duties efficiently, leading to operational challenges and potential errors. The training program needed to bridge this knowledge gap by providing comprehensive hands-on experience with PLC systems, programming, and structured cabling.",
-                    "img_1_issue" : "/images/demoPLC_issue_1.png",
-                    "img_2_issue" : "/images/demoPLC_issue_2.png"
+                    "text_issue"  : "Finding the right flight can be time-consuming and complex, with numerous options and varying prices.",
+                    "img_1_issue" : "/images/detal_appointment_list_photo.png",
+                    "img_2_issue" : "/images/detal_appointments_photo.png"
                 },
                 "solution":{
-                    "text_solution" : "To meet the challenge, a demo PLC equipment was developed for practical training. It included components like a potentiometer, buttons, lights, and displays for hands-on practice. Training sessions focused on signal handling, digital/analog signal usage, counters, timers, and structured cabling. The use of CCW software facilitated PLC programming exercises, enabling technicians to gain essential skills for effective machinery operation.",
-                    "img_1_solution"  : "/images/demoPLC_solution_2.png",
-                    "img_2_solution"  : "/images/demoPLC_solution_1.png", 
-                    "img_3_solution"  : "/images/demoPLC_summary_3.png" 
+                    "text_solution" : " FlyScan simplifies this process by,User Input: Allowing users to input their flight requirements,API Integration: Fetching real-time flight data through an API,Comprehensive Listings: Displaying a clear and concise list of available flights.",
+                    "img_1_solution"  : "/images/detal_appointment_list_photo_03.png",
+                    "img_2_solution"  : "/images/detal_customers_list_photo.png", 
+                    "img_3_solution"  : "/images/detal_appointment_list_photo_03.png" 
                  }
             }
         }, 
