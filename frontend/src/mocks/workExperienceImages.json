@@ -70,30 +70,30 @@
             "leyend"  :"pickering",
             "happyDental_Process" : {
                 "front" : {
-                    "title_1": "FlyScan",
-                    "text": "Simplified Flight Search",
+                    "title_1": "Happy Dental",
+                    "text": "Happy Dental - Simplifying Dental Appointments for Small Businesses",
                     "img":"/images/detal_home_photo.png",
-                    "context" : "FlyScan addresses the need for a straightforward and efficient flight search tool, enabling users to find and book flights with ease.",
+                    "context" : "Happy Dental addresses these challenges by providing a user-friendly interface that simplifies the appointment process. This project is specifically tailored for small dental businesses that need a cost-effective and straightforward solution to manage their daily operations more effectively.",
                     "role": "Design Lead",
                     "team_1" : "1 Designer",
                     "timeLine"  :"Jun/20 - Jun/27 2023"
 
                 },
                 "summary" :{
-                    "title_summary" : "Effortlessly Find and Book Your Flights",
-                    "text_summary"  :"FlyScan is a user-friendly platform that allows users to search for flights based on their desired criteria, such as date, price, and destination. By leveraging an external API, FlyScan provides a comprehensive list of available flights, making it easy for users to find the best options.",
+                    "title_summary" : "User-Friendly Appointment Management and Patient Listing Web Application",
+                    "text_summary"  :"Happy Dental is a web application designed to streamline appointment scheduling and patient management for small dental practices. The application features a welcoming homepage and two main sections: an appointment scheduler with full CRUD functionality and a patient list sourced from a simulated API.",
                     "img_1_summary" :"/images/detal_appointment_list_photo.png",
                     "img_2_summary" :"/images/detal_customers_list_photo.png",
                     "img_3_summary" :"/images/detal_home_photo_02.png"
 
                 },
                 "issue"  :{
-                    "text_issue"  : "Finding the right flight can be time-consuming and complex, with numerous options and varying prices.",
+                    "text_issue"  : "Small dental practices often struggle with efficient appointment scheduling and patient management due to a lack of dedicated resources and tools. This can lead to scheduling conflicts, poor patient experience, and administrative inefficiencies.",
                     "img_1_issue" : "/images/detal_appointment_list_photo.png",
                     "img_2_issue" : "/images/detal_appointments_photo.png"
                 },
                 "solution":{
-                    "text_solution" : " FlyScan simplifies this process by,User Input: Allowing users to input their flight requirements,API Integration: Fetching real-time flight data through an API,Comprehensive Listings: Displaying a clear and concise list of available flights.",
+                    "text_solution" : " The Happy Dental web application features a friendly homepage and two main sections: an appointment scheduler with full CRUD functionality to manage patient appointments, and a dynamically updated patient list sourced from a simulated API. This setup aims to enhance operational efficiency, improve patient management, and offer a seamless experience for both staff and patients in small dental practices.",
                     "img_1_solution"  : "/images/detal_appointment_list_photo_03.png",
                     "img_2_solution"  : "/images/detal_customers_list_photo.png", 
                     "img_3_solution"  : "/images/detal_appointment_list_photo_03.png" 
@@ -108,32 +108,31 @@
             "leyend"  : "etobicoke",
             "labviewTagProcess" : {
                 "front" : {
-                    "title_1": "Label Accuracy Enhancement Project",
-                    "text": "Label Information Correction in Testing Electrical Machine for Production Optimization",
-                    "img":"/images/labview_summary_3.png",
-                    "context" : "The project aimed to enhance label accuracy in a testing electrical machine used by TE Connectivity's production department. Despite passing tests, certain part numbers were printing incorrect label information. The maintenance department identified and rectified the code error, ensuring accurate labels post-setup for new part numbers.",
+                    "title_1": "Budget Tracker",
+                    "text": "Visualize and Control Your Spending",
+                    "img":"/images/budget_home_photo.png",
+                    "context" : "Budget Tracker helps users manage their finances by setting budgets and tracking expenses, providing clear insights into their spending habits.",
                     "role": "Design Lead",
                     "team_1" : "1 Designers",
-                    "team_2" : "1 Engineer",
                     "timeLine"  :"Feb/01 - Apr/01 2021"
                 },
                 "summary" :{
-                    "title_summary" : "Improving Label Information Precision for Enhanced Production Efficiency",
-                    "text_summary"  :"The project involved improving the label information accuracy for specific part numbers in a testing electrical machine used by the production department at TE Connectivity. The machine conducts various electrical and color tests, and upon successful testing, provides a green signal and a label with customer information and part numbers. However, there were issues with incorrect label information for certain part numbers, prompting the need for corrective action.",
-                    "img_1_summary" :"/images/labview_summary_1.png",
-                    "img_2_summary" :"/images/labview_summary_2.png",
-                    "img_3_summary" :"/images/labview_summary_3.png"
+                    "title_summary" : "Manage Your Finances Efficiently",
+                    "text_summary"  :"Budget Tracker is a financial management tool that enables users to set a monthly or weekly budget and track their expenses. Through a user-friendly interface and visual graphs, users can easily see their spending patterns and remaining budget.",
+                    "img_1_summary" :"/images/budget_add_expenses_photo.png",
+                    "img_2_summary" :"/images/budget_expenses_list_photo.png",
+                    "img_3_summary" :"/images/budget_add_expenses_photo.png"
 
                 },
                 "issue"  :{
-                    "text_issue"  : "The problem identified was the incorrect label information printed for specific part numbers despite passing the tests. This led to confusion and potential errors in product labeling, impacting customer information accuracy.",
-                    "img_1_issue" : "/images/labview_issue_1.png",
-                    "img_2_issue" : "/images/labview_issue_2.png"
+                    "text_issue"  : "Many individuals struggle to manage their finances effectively, often exceeding their budget due to a lack of clear tracking.",
+                    "img_1_issue" : "/images/budget_degine-budget_photo.png",
+                    "img_2_issue" : "/images/budget_expenses_control_photo.png"
                 },
                 "solution":{
-                    "text_solution" : "As part of the maintenance department, the error in the machine's code causing incorrect label information was identified. A new code was developed with modifications to ensure the correct information was printed on the labels once the setup for new part numbers was completed. This solution aimed to improve label accuracy and reduce errors in customer information.",
-                    "img_1_solution"  : "/images/labview_solution_1.png",
-                    "img_2_solution"  : "/images/labview_solution_2.png" 
+                    "text_solution" : "Budget Tracker offers Initial Budget Setup where the Users can set their desired budget period,A modal allows users to add expenses and also Real-time graphical updates display spending and remaining budget.",
+                    "img_1_solution"  : "/images/budget_expenses_control_photo.png",
+                    "img_2_solution"  : "/images/budget_add_expenses_photo_02.png" 
                  }
             }
         }
