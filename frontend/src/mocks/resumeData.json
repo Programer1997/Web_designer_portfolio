@@ -41,25 +41,21 @@
             "id" : 2,
             "title": "skills",
             "habilityOne" : {
-                "PLC programming": "Allen Bradley, Siemens, Omron, Delta. Knowledge of CCW, Tia Portal, ISPsoft, DopSoft, etc. programming software",
-                "Knowledge of communication protocols": "Ethernet/IP, rs232, profinet, rs 485 and modbus",
-                "HMI Programming": "Allen Bradley, Siemens, Delta (intermediate level)",
-                "Knowledge of security systems": "Security system, security interlocks, etc.",
+                "PLC programming": "Responsive Web Design,VS Code.",
+                "Knowledge of communication protocols": "JavaScript,React,Node,API,Postman.",
+                "HMI Programming": "Database MongoDB, PostgresSQL,MySQL.",
+                "Java NetBeans Programming": "Java, HTML, JS, React, Node",
                 "Vision systems": "COGNEX and KEYENCE vision systems",
                 "LabVIEW Programming": "Programming in LabVIEW",
-                "Java NetBeans Programming": "Java, HTML, JS, React, Node",
-                "Interpretation of electrical control diagrams": "Interpretation of electrical control diagrams",
-                "Knowledge about manufacturing processes": "Knowledge about manufacturing processes"
+                "Knowledge about manufacturing processes": "Knowledge about manufacturing processes",
+                "Advanced Mechanical Design": "Advanced Mechanical Design in SolidWorks (Finite Element Method, Design of Fixtures, Assemblies, Structures, Sheet Metal, etc.)"
             
             },
             "habilityTwo" : {
-                "Advanced Mechanical Design": "Advanced Mechanical Design in SolidWorks (Finite Element Method, Design of Fixtures, Assemblies, Structures, Sheet Metal, etc.)",
                 "Design": "Design AutoCAD & SpaceClaim",
                 "Knowledge of pneumatic systems": "Knowledge of pneumatic valves, actuators, etc.",
                 "Experience in assembling control cabinets": "Experience in assembling control cabinets, assemblies",
                 "Knowledge of geometric tolerances": "Knowledge of geometric tolerances",
-                "Handling of tools": "Handling tools, wrenches, screwdrivers, drills, grinders, etc.",
-                "Management of conventional and CNC milling machines": "Management of Conventional and CNC Milling Machine",
                 "Management of Microsoft Office Package": "Management of computer software Microsoft Office Package, (Microsoft Word, Excel, etc.)",
                 "KAISEN": "KAISEN"
             }
