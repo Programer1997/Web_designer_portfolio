@@ -53,22 +53,22 @@
     "elementos_3": {
         "aluma" : {
             "id" : 1,
-            "img_Url" : "/images/autocad_logo.png",
+            "img_Url" : "/images/mongodb.png",
             "title":"aluma"
         },
         "peri": {
             "id" : 2,
-            "img_Url":"/images/AllenBradley_logo.png",
+            "img_Url":"/images/node-js.png",
             "title": "aluma"
         }, 
         "doka": {
             "id" : 3,
-            "img_Url":"/images/solidworks_logo.png",
+            "img_Url":"/images/socket.png",
             "title":"doka"
         },
         "cognex": {
             "id" : 4,
-            "img_Url":"/images/cognex_logo.jpg",
+            "img_Url":"/images/Html.png",
             "title":"cognex"
         }
         
